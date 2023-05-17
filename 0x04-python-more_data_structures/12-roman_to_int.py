@@ -16,5 +16,5 @@ def roman_to_int(roman_string):
                 roman[roman_string[i]] < roman[roman_string[i + 1]]):
             integer += roman[roman_string[i]] * -1
         else:
-            integer += roman[roman_string[i]]    
+            integer += roman[roman_string[i]]
     return (integer)

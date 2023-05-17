@@ -13,4 +13,4 @@ def best_score(a_dictionary):
         if v > big:
             big = v
             key = k
-    return (key) 
+    return (key)
